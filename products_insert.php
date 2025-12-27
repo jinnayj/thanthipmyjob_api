@@ -43,5 +43,6 @@ if ($result) {
     echo json_encode([
         "status" => "error",
         "message" => "Insert failed"
-    ]);
+    ]);  
+
 }
